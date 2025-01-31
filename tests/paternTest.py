@@ -7,4 +7,5 @@ pattern = 'М?*'
 
 # Поиск по шаблону
 result = [item for item in list if fnmatch.fnmatch(item, pattern)]
-print(result)
+print(result) 
+# Выводит [Му]
